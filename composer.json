@@ -1,5 +1,5 @@
 {
-  "name": "kazak71/laravel-source-encrypter",
+  "name": "rezgui/laravel-source-encrypter",
   "keywords": [
     "laravel",
     "lumen",
@@ -17,7 +17,7 @@
     "illuminate/console": "^6|^7|^8|^9|^10|^11",
     "illuminate/support": "^6|^7|^8|^9|^10|^11"
   },
-  "description": "Laravel Source Encrypter",
+  "description": "Laravel Source Encrypter 6 / 7 / 8 / 9 / 10 / 11",
   "license": "MIT",
   "authors": [
     {
