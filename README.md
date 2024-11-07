@@ -10,7 +10,7 @@
 
 This package encrypts your php code with [phpBolt](https://phpbolt.com) 
 
-*For Laravel and Lumen 6, 7, 8, 9*
+*For Laravel and Lumen 6, 7, 8, 9, 10 , 11
 
 * [Installation](#installation)
 * [Usage](#usage)
@@ -24,7 +24,7 @@ At the first, You have to [install phpBolt](https://phpbolt.com/download-phpbolt
 ### Step 2
 Require the package with composer using the following command:
 ```bash
-composer require --dev sbamtr/laravel-source-encrypter
+composer require --dev rezgui/laravel-source-encrypter
 ```
 ### Step 3
 #### For Laravel
