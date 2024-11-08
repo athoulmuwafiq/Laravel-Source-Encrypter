@@ -32,21 +32,21 @@ The service provider will automatically get registered. Or you may manually add 
 ```php
 'providers' => [
     // ...
-    \sbamtr\LaravelSourceEncrypter\SourceEncryptServiceProvider::class,
+    \rezgui\LaravelSourceEncrypter\SourceEncryptServiceProvider::class,
 ];
 ```
 
 #### For Lumen
 Add this line of code under the `Register Service Providers` section of your `bootstrap/app.php`:
 ```php
-$app->register(\sbamtr\LaravelSourceEncrypter\SourceEncryptServiceProvider::class);
+$app->register(\rezgui\LaravelSourceEncrypter\SourceEncryptServiceProvider::class);
 ```
 
 
 ### Step 4 (Optional)
 You can publish the config file with this following command:
 ```bash
-php artisan vendor:publish --provider="sbamtr\LaravelSourceEncrypter\SourceEncryptServiceProvider" --tag=config
+php artisan vendor:publish --provider="rezgui\LaravelSourceEncrypter\SourceEncryptServiceProvider" --tag=config
 ```
 **Note:** If you are using Lumen, you have to use [this package](https://github.com/laravelista/lumen-vendor-publish).
 
@@ -80,6 +80,6 @@ This command has these optional options:
 | `php artisan encrypt-source --destination=dist`               | Encrypts with default source and key length to `dist` directory.                                                  |
 | `php artisan encrypt-source --destination=dist --keylength=8` | Encrypts default source to `dist` directory and the encryption key length is `8`.                                 |
 
-Written with ♥ by Siavash Bamshadnia.
+Written with ♥ by Siavash Bamshadnia, and update with ♥ by Yacine REZGUI.
 
 Please support me by staring this repository.
