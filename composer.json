@@ -23,11 +23,19 @@
     {
       "name": "Siavash Bamshadnia",
       "email": "sbamtr@gmail.com"
+    },
+    {
+      "name": "Petar Kazakov",
+      "email": "kazak.71@gmail.com"
+    },
+    {
+      "name": "Yacine REZGUI",
+      "email": "yacine.rezgui@gmail.com"
     }
   ],
   "autoload": {
     "psr-4": {
-      "sbamtr\\LaravelSourceEncrypter\\": "src"
+      "rezgui\\LaravelSourceEncrypter\\": "src"
     }
   },
   "config": {
@@ -37,7 +45,7 @@
   "extra": {
     "laravel": {
       "providers": [
-        "sbamtr\\LaravelSourceEncrypter\\SourceEncryptServiceProvider"
+        "rezgui\\LaravelSourceEncrypter\\SourceEncryptServiceProvider"
       ]
     }
   }
