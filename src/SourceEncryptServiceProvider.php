@@ -3,13 +3,19 @@
 /**
  * Laravel Source Encrypter.
  *
- * @author      Siavash Bamshadnia
  * @license     http://www.opensource.org/licenses/mit-license.php MIT
  *
+ * @author      Siavash Bamshadnia
  * @link        https://github.com/SiavashBamshadnia/Laravel-Source-Encrypter
+ *
+ * @author      Peter Kazakov
+ * @link        https://github.com/kazak71/Laravel-Source-Encrypter 
+ *
+ * @author      Yacine REZGUI
+ * @link        https://github.com/rezgui/Laravel-Source-Encrypter
  */
 
-namespace sbamtr\LaravelSourceEncrypter;
+namespace rezgui\LaravelSourceEncrypter;
 
 use Illuminate\Support\ServiceProvider;
 
