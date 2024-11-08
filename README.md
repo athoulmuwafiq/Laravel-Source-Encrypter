@@ -1,15 +1,16 @@
-# Laravel Source Encrypter for Laravel and Lumen 6, 7, 8, 9, 10 , 11
+# Laravel Source Encrypter
 
-[![License](https://poser.pugx.org/rezgui/laravel-source-encrypter/license)](https://github.com/rezgui/Laravel-Source-Encrypter)
-[![Latest Stable Version](https://poser.pugx.org/rezgui/laravel-source-encrypter/v/stable)](https://packagist.org/packages/rezgui/laravel-source-encrypter)
-[![CodeFactor](https://www.codefactor.io/repository/github/rezgui/laravel-source-encrypter/badge)](https://www.codefactor.io/repository/github/rezgui/laravel-source-encrypter)
-[![PHP Version Require](https://poser.pugx.org/rezgui/laravel-source-encrypter/require/php)](https://packagist.org/packages/rezgui/laravel-source-encrypter)
-[![Total Downloads](https://poser.pugx.org/rezgui/laravel-source-encrypter/downloads)](https://packagist.org/packages/rezgui/laravel-source-encrypter) 
+[![License](https://poser.pugx.org/rezgui/laravel-source-encrypter/license?style=for-the-badge)](https://github.com/rezgui/Laravel-Source-Encrypter)
+[![Latest Stable Version](https://poser.pugx.org/rezgui/laravel-source-encrypter/v/stable?style=for-the-badge)](https://packagist.org/packages/rezgui/laravel-source-encrypter)
+[![CodeFactor](https://www.codefactor.io/repository/github/rezgui/laravel-source-encrypter/badge?style=for-the-badge)](https://www.codefactor.io/repository/github/rezgui/laravel-source-encrypter)
+[![PHP Version Require](https://poser.pugx.org/rezgui/laravel-source-encrypter/require/php?style=for-the-badge)](https://packagist.org/packages/rezgui/laravel-source-encrypter)
+[![Total Downloads](https://poser.pugx.org/rezgui/laravel-source-encrypter/downloads?style=for-the-badge)](https://packagist.org/packages/rezgui/laravel-source-encrypter) 
 
 ![](cover.jpg)
 
 This package encrypts your php code with [phpBolt](https://phpbolt.com) 
-
+for Laravel and Lumen 6, 7, 8, 9, 10 , 11
+ 
 * [Introduction](#introduction)
   * [Benifits of Encoding](#benifits-of-encoding)
 * [phpBolt encoder](#phpbolt-encoder)
