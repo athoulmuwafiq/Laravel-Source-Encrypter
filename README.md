@@ -15,6 +15,7 @@ for Laravel and Lumen 6, 7, 8, 9, 10 , 11
   * [Benifits of Encoding](#benifits-of-encoding)
 * [phpBolt encoder](#phpbolt-encoder)
   * [Guide](#guide)
+* [Protect Larave Source Code](#protect-larave-source-code)
 * [Installation Package](#installation-package)
 * [Usage](#usage)
 
@@ -101,7 +102,23 @@ Many PHP developers need to protect their application source code before they di
 
     - Now you have successfully setup bolt loader extension.
 
+## Protect Larave Source Code
 
+- It is based on phpBolt extension, it encrypts your php code with phpBolt.
+
+- To install and use it in your Laravel project, follow this guide [Installation](#installation).
+
+- There is no way to encrypt blade files. (*blade files are not real PHP files*)
+  - [Blade file is not decrypted](https://github.com/SiavashBamshadnia/Laravel-Source-Encrypter/issues/21)
+  - [Cannot convert resources/views folder](https://github.com/SiavashBamshadnia/Laravel-Source-Encrypter/issues/20)
+
+- There is no way to decrypt the source code, the **only one who will have the source code is you**.
+
+- You may face some problems/issues when you use encryption commands:
+
+  - [failed to open stream: No such file or directory](https://github.com/SiavashBamshadnia/Laravel-Source-Encrypter/issues/13) (*just modify the `Laravel-Source-Encrypter/src/SourceEncryptCommand.php` file*)
+
+  - You may run the encryption command and everything went well, but you got an exception about `.gitignore`. You don't have to worry about that. Keep going and ignore that exception.
 
 ## Installation Package
 
