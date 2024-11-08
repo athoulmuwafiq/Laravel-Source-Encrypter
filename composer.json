@@ -13,7 +13,7 @@
   ],
   "type": "library",
   "require": {
-    "php": ">=7.2.5",
+    "php": ">=8.2",
     "illuminate/console": "^6|^7|^8|^9|^10|^11",
     "illuminate/support": "^6|^7|^8|^9|^10|^11"
   },
