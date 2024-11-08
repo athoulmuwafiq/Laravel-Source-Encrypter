@@ -3,13 +3,19 @@
 /**
  * Laravel Source Encrypter.
  *
- * @author      Siavash Bamshadnia
  * @license     http://www.opensource.org/licenses/mit-license.php MIT
  *
+ * @author      Siavash Bamshadnia
  * @link        https://github.com/SiavashBamshadnia/Laravel-Source-Encrypter
+ *
+ * @author      Peter Kazakov
+ * @link        https://github.com/kazak71/Laravel-Source-Encrypter 
+ *
+ * @author      Yacine REZGUI
+ * @link        https://github.com/rezgui/Laravel-Source-Encrypter
  */
 
-namespace sbamtr\LaravelSourceEncrypter;
+namespace rezgui\LaravelSourceEncrypter;
 
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\File;
@@ -119,7 +125,7 @@ class SourceEncryptCommand extends Command
 
         $extension = Str::after($filePath, '.');
 
-        if ($extension == 'blade.php' || $extension != 'php') {
+        if ($extension == 'blade.php' || $extension != 'php' || $extension != 'php.old') {
             if (!in_array($extension, $this->warned)) {
                 $this->warn("Encryption of $extension files is not currently supported. These files will be copied without change.");
                 $this->warned[] = $extension;
