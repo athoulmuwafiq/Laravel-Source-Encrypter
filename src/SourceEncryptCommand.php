@@ -125,7 +125,7 @@ class SourceEncryptCommand extends Command
 
         $extension = Str::after($filePath, '.');
 
-        if ($extension == 'blade.php' || $extension != 'php' || $extension != 'php.old') {
+        if ($extension != 'php') {
             if (!in_array($extension, $this->warned)) {
                 $this->warn("Encryption of $extension files is not currently supported. These files will be copied without change.");
                 $this->warned[] = $extension;
